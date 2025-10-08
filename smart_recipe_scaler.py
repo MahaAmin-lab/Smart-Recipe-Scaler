@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1921_RzjB-_6YUi-67Q8WWsCs713XALNU
 """
 
-import math
-
 def scale_recipe():
     """
     Calculates and scales ingredient quantities based on changes in serving size.
@@ -126,9 +124,4 @@ def scale_recipe():
         print(f"  {qty_display:<6} {item['unit']:<8} of {item['name']}")
 
     print("=============================================")
-    print("Tip: Remember to adjust cooking time and pan size for the new batch!")
-
-# This line ensures the scale_recipe function only runs when the script is executed directly,
-# which is the standard practice for runnable Python scripts.
-if __name__ == "__main__":
     scale_recipe()
